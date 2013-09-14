@@ -19,6 +19,32 @@
                 <a href="kontakt.html">Kontakt</a>
             </li>
         </ul>
+        
+        <p>En liten utvärdering</p>
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post" id="formulär">
+            
+            <fieldset>
+                <legend>Information om dig</legend>
+                <p>Namn: <input type="tex" name="namn" /></p>
+                <select name="klass" size="1">
+                    <option selected="selected">Vilken klass tillhör du?</option>
+                    <option>HT13</option>
+                    <option>RL13</option>
+                    <option>SA13</option>
+                    <option>TE13B</option>
+                </select>                
+            </fieldset>
+            
+            <fieldset>
+                <legend>Vad tycker du om lektionerna än så länge?</legend>
+                <p><label><input type="radio" name="kursen" value="Bra" /> Bra</label></p>
+                <p><label><input type="radio" name="kursen" value="Dåligt" /> Dåligt</label></p>
+                <p>Motivera gärna ditt svar:</p>
+                <textarea name="motivering" rows="5" cols="30"></textarea>                
+            </fieldset>
+
+            <button>Skicka in din utvärdering</button>
+        </form>
 
     </body>
 </html>
