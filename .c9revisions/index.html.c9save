@@ -39,3 +39,5 @@
 {"ts":1379183229006,"patch":[[{"diffs":[[0," />\n"],[-1,"                <a href=\"videos/trailer.mp4\">Videon</a>\n"],[0,"    "]],"start1":1083,"start2":1083,"length1":64,"length2":8}]],"length":3710,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1379184565893,"patch":[[{"diffs":[[0,"        <article"],[1," id=\"blogg-video\""],[0,">\n            <h"]],"start1":717,"start2":717,"length1":32,"length2":49}]],"length":3727,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1380750497614,"patch":[[{"diffs":[[0,"ida</title>\n"],[1,"        <link rel=\"stylesheet\" type=\"text/css\" href=\"style/basic.css\" />\n"],[0,"    </head>\n"]],"start1":101,"start2":101,"length1":24,"length2":97}]],"length":3800,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1380820021362,"patch":[[{"diffs":[[0,"eet\""],[-1," type=\"text/css\""],[0," hre"]],"start1":139,"start2":139,"length1":24,"length2":8}]],"length":3784,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1380820417980,"patch":[[{"diffs":[[0,"\" href=\""],[-1,"style"],[1,"css"],[0,"/basic.c"]],"start1":142,"start2":142,"length1":21,"length2":19}]],"length":3782,"saved":false}
