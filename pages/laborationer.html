@@ -3,201 +3,214 @@
     <head>
         <meta charset ="utf-8" />
         <title>Laborationer</title>
+        <link rel="stylesheet" href="../css/reset.css" />
         <link rel="stylesheet" href="../css/basic.css" />
     </head>
     <body>
-        <h1>Min laborationsportal</h1>
-        <p>Här hittar du mina laborationer</p>
-        <ul>
-            <li>
-                <a href="../index.html">Start</a>
-            </li>
-            <li>
-                <a href="laborationer.html">Laborationer</a>
-            </li>
-            <li>
-                <a href="presentation.html">Presentation</a>
-            </li>
-            <li>
-                <a href="kontakt.html">Kontakt</a>
-            </li>
-        </ul>
-       
-        <h2>Webbteknisk introduktion</h2>
-        
-        <h3>Laborationer</h3>
-        <ul>
-            <li>
-                <a href="#lab1">Laboration 1</a>
-            </li>
-            <li>
-                <a href="#lab2">Laboration 2</a>
-            </li>
-        </ul>
-        
-        <h3>Resultat</h3>
-        <table border="1" id="tabell">
-            <caption>Resultattabell för kursens laborationer</caption>
-            <thead>
-                <tr>
-                    <th>Laboration</th>
-                    <th>Uppgift</th>
-                    <th>Status</th>
-                    <th>Redovisad</th>
-                </tr>
-            </thead>
+        <div id="container">
+            <div id="header">
+                <h1>Min laborationsportal</h1>
+                <p>Här hittar du mina laborationer</p>
+            </div>
             
-            <tfoot>
-                <tr>
-                    <td colspan="4">Laborationsresultat gällande Niclas Evén</td>
-                </tr>
-            </tfoot>
+            <div id="navigation">
+                <ul>
+                    <li>
+                        <a href="../index.html">Start</a>
+                    </li>
+                    <li>
+                        <a href="laborationer.html">Laborationer</a>
+                    </li>
+                    <li>
+                        <a href="presentation.html">Presentation</a>
+                    </li>
+                    <li>
+                        <a href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
             
-            <!--Tabellkropp för laboration 1 -->    
-            <tbody>
-                <tr>
-                    <td rowspan="9">1</td>
-                    <td>1</td>
-                    <td>Färdig</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Färdig</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Färdig</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Färdig</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Färdig</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Färdig</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Färdig</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Färdig</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>Färdig</td>
-                    <td></td>
-                </tr>
-             </tbody>
-
-            <!--Tabellkropp för laboration 2 -->  
-             <tbody>   
-                <tr>
-                    <td rowspan="8">2</td>
-                    <td>1</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>                
-                <tr>
-                    <td>5</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>                
-            </tbody>
-        </table>
+            <div id="content">
+                <h2>Webbteknisk introduktion</h2>
+                
+                <h3>Laborationer</h3>
+                <ul>
+                    <li>
+                        <a href="#lab1">Laboration 1</a>
+                    </li>
+                    <li>
+                        <a href="#lab2">Laboration 2</a>
+                    </li>
+                </ul>
+                
+                <h3>Resultat</h3>
+                <table border="1" id="tabell">
+                    <caption>Resultattabell för kursens laborationer</caption>
+                    <thead>
+                        <tr>
+                            <th>Laboration</th>
+                            <th>Uppgift</th>
+                            <th>Status</th>
+                            <th>Redovisad</th>
+                        </tr>
+                    </thead>
+                    
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">Laborationsresultat gällande Niclas Evén</td>
+                        </tr>
+                    </tfoot>
+                    
+                    <!--Tabellkropp för laboration 1 -->    
+                    <tbody>
+                        <tr>
+                            <td rowspan="9">1</td>
+                            <td>1</td>
+                            <td>Färdig</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Färdig</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Färdig</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Färdig</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Färdig</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Färdig</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Färdig</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Färdig</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Färdig</td>
+                            <td></td>
+                        </tr>
+                     </tbody>
         
-        <h3 id="lab1">Laboration 1 - Struktur och innehåll</h3>
-        <p>Uppgifter:</p>
-        <ol>
-            <li>Utvecklingsmiljön</li>
-            <li>Ett första dokument</li>
-            <li>Startsidan</li>
-            <li>
-                Absoluta/Relativa sökvägar
-                <dl>
-                    <dt>Skriv den absoluta sökvägen till filen bottom.html?</dt>
-                    <dd>Svar: www.server.se/www/html/pages/bottom.html</dd>
-                    <dt>Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
-                    <dd>Svar: pages/top.html</dd>
-                    <dt>Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
-                    <dd>Svar: ../../index.html</dd>
-                    <dt>Vilken är den absoluta sökvägen till filen index.html?</dt>
-                    <dd>Svar: www.server.se/www/index.html</dd>
-                    <dt>Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
-                    <dd>Svar: bottom.html</dd>
-                    <dt>Vilken är den relativa sökvägen från filen index.html till top.html?</dt>
-                    <dd>Svar: html/pages/top.html</dd>
-                </dl>    
-            </li>
-            <li>Länkar och mer listor</li>
-            <li>Bilder
-                <ul>
-                    <li><a href="presentation.html#niclas">Bild på Niclas</a></li>
-                    <li><a href="../index.html#logotyp">Logotyp</a></li>
-                    <li><a href="../index.html#blogg-vektor">Bloggbild</a></li>
-                </ul>
-            </li>
-            <li>Video
-                <ul>
-                    <li><a href="../index.html#blogg-video">Blogginlägg om video</a></li>
-                </ul>
-            </li>
-            <li>Tabeller
-                <ul>
-                    <li><a href="#tabell">Tabellen</a></li>
-                </ul>
-            </li>
-            <li>Formulär
-                <ul>
-                    <li><a href="kontakt.html#formulär">Formulär</a></li>
-                </ul>
-            </li>
-        </ol>
-        
-        <h3 id="lab2">Laboration 2 - En stiligare portal</h3>
-
+                    <!--Tabellkropp för laboration 2 -->  
+                     <tbody>   
+                        <tr>
+                            <td rowspan="8">2</td>
+                            <td>1</td>
+                            <td>Ej påbörjad</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Ej påbörjad</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Ej påbörjad</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Ej påbörjad</td>
+                            <td></td>
+                        </tr>                
+                        <tr>
+                            <td>5</td>
+                            <td>Ej påbörjad</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Ej påbörjad</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Ej påbörjad</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Ej påbörjad</td>
+                            <td></td>
+                        </tr>                
+                    </tbody>
+                </table>
+                
+                <h3 id="lab1">Laboration 1 - Struktur och innehåll</h3>
+                <p>Uppgifter:</p>
+                <ol>
+                    <li>Utvecklingsmiljön</li>
+                    <li>Ett första dokument</li>
+                    <li>Startsidan</li>
+                    <li>
+                        Absoluta/Relativa sökvägar
+                        <dl>
+                            <dt>Skriv den absoluta sökvägen till filen bottom.html?</dt>
+                            <dd>Svar: www.server.se/www/html/pages/bottom.html</dd>
+                            <dt>Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
+                            <dd>Svar: pages/top.html</dd>
+                            <dt>Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
+                            <dd>Svar: ../../index.html</dd>
+                            <dt>Vilken är den absoluta sökvägen till filen index.html?</dt>
+                            <dd>Svar: www.server.se/www/index.html</dd>
+                            <dt>Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
+                            <dd>Svar: bottom.html</dd>
+                            <dt>Vilken är den relativa sökvägen från filen index.html till top.html?</dt>
+                            <dd>Svar: html/pages/top.html</dd>
+                        </dl>    
+                    </li>
+                    <li>Länkar och mer listor</li>
+                    <li>Bilder
+                        <ul>
+                            <li><a href="presentation.html#niclas">Bild på Niclas</a></li>
+                            <li><a href="../index.html#logotyp">Logotyp</a></li>
+                            <li><a href="../index.html#blogg-vektor">Bloggbild</a></li>
+                        </ul>
+                    </li>
+                    <li>Video
+                        <ul>
+                            <li><a href="../index.html#blogg-video">Blogginlägg om video</a></li>
+                        </ul>
+                    </li>
+                    <li>Tabeller
+                        <ul>
+                            <li><a href="#tabell">Tabellen</a></li>
+                        </ul>
+                    </li>
+                    <li>Formulär
+                        <ul>
+                            <li><a href="kontakt.html#formulär">Formulär</a></li>
+                        </ul>
+                    </li>
+                </ol>
+                
+                <h3 id="lab2">Laboration 2 - En stiligare portal</h3>                
+            </div>
+            
+            <div id="footer">
+                <p>&copy; Niclas Evén</p>
+            </div>
+        </div>
     </body>
 </html>

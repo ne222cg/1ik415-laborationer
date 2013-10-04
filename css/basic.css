@@ -1,1 +1,21 @@
-@import url("reset.css")  
+body {background-color: yellow;}
+
+/* Layout all box */
+#container, #header, #navigation, #content, #footer 
+{border:solid 1px; background-color:white; overflow:auto;}
+
+/* Layout single box */
+#container  {max-width:  960px; margin: 0 auto;}
+#header     {width:      958px;}
+#navigation {width:      228px; float:left;}
+#content    {width:      708px; float:left;}
+#footer     {width:      958px; clear:both;}
+
+article {width:708px; padding-bottom: 20px; margin:0 auto;}
+article header {width:400px; margin:0 auto;}
+article header footer {margin-bottom: 10px; padding-top:10px; border-top:solid 1px;}
+
+h3 {font-size:2em; text-align:center; padding-bottom:5px;}
+
+/* Typografi */
+#navigation, #content {padding:5px;}
