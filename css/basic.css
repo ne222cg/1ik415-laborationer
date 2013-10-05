@@ -1,21 +1,30 @@
-body {background-color: yellow;}
+body {background-color: #FFF;}
 
 /* Layout all box */
-#container, #header, #navigation, #content, #footer 
-{border:solid 1px; background-color:white; overflow:auto;}
+#headcontent, #container, #header, #navigation, #content, #footer 
+{z-index:100; overflow:auto;}
 
 /* Layout single box */
-#container  {max-width:  960px; margin: 0 auto;}
-#header     {width:      958px;}
-#navigation {width:      228px; float:left;}
-#content    {width:      708px; float:left;}
+#header     {width:      100%; background-color:#F7F7F7;}
+#headcontent{max-width:  960px; margin: 0 auto; height:50px; background-color:#C2C2C2;}
+#container  {max-width:  958px; margin: 0 auto; border-left:solid 1px; border-right:solid 1px; border-color: #C2C2C2;}
+#navigation {width:      220px; float:left; }
+#content    {width:      697px; float:left; border-left:solid 1px; border-color: #C2C2C2;}
 #footer     {width:      958px; clear:both;}
+
+h1 {margin:10px;  width:50%; float:left; overflow:auto; text-align:center; font-size:2em;}
+#logotype {height: 50px; float:left;}
 
 article {width:708px; padding-bottom: 20px; margin:0 auto;}
 article header {width:400px; margin:0 auto;}
 article header footer {margin-bottom: 10px; padding-top:10px; border-top:solid 1px;}
 
-h3 {font-size:2em; text-align:center; padding-bottom:5px;}
+h3 {font-size:1.5em; text-align:center; padding-bottom:5px;}
+
+/* Link */
+#navigation li a {display: block; padding: 10px; background-color:#F7F7F7; text-decoration:none; margin-bottom:10px;}
+#navigation li a:hover {background-color: #C2C2C2;}
+#thisSide a.thisSide  {background-color: #C2C2C2;}
 
 /* Typografi */
-#navigation, #content {padding:5px;}
+#navigation, #content {padding:10px;}
