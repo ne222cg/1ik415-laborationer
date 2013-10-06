@@ -5,26 +5,34 @@ body {background-color: #FFF;}
 {z-index:100; overflow:auto;}
 
 /* Layout single box */
-#header     {width:      100%; background-color:#F7F7F7;}
-#headcontent{max-width:  960px; margin: 0 auto; height:50px; background-color:#C2C2C2;}
-#container  {max-width:  958px; margin: 0 auto; border-left:solid 1px; border-right:solid 1px; border-color: #C2C2C2;}
-#navigation {width:      220px; float:left; }
-#content    {width:      697px; float:left; border-left:solid 1px; border-color: #C2C2C2;}
-#footer     {width:      958px; clear:both;}
+#header     {    width:  100%;                              background-color: #F7F7F7;}
+#headcontent{max-width: 960px; height:50px; margin: 0 auto; background-color: #C2C2C2;}
+#container  {max-width: 958px;              margin: 0 auto;                             border-left: solid 1px; border-right: solid 1px; border-color: #C2C2C2;}
+#navigation {    width: 170px; float: left; padding:10px;}
+#content    {    width: 506px; float: left; padding:10px;                               border-left: solid 1px; border-right: solid 1px; border-color: #C2C2C2;}
+#aside      {    width: 220px; float: left; padding:10px;}
+#footer     {max-width: 958px; height:50px; clear: both;    background-color: #C2C2C2;}
 
-h1 {margin:10px;  width:50%; float:left; overflow:auto; text-align:center; font-size:2em;}
-#logotype {height: 50px; float:left;}
 
-article {width:708px; padding-bottom: 20px; margin:0 auto;}
+/* Headcontent */
+#logotype {height: 50px; float:left; margin-left:30px;}
+h1 {margin:10px 10px 10px 30px; float:left; font-size:2em;}
+#headcontent p {float: right; margin: 30px 30px 0 0;}
+
+/* Navigation */
+#navigation li a {display: block; padding: 10px 20px; background-color:#F7F7F7; text-decoration:none; margin-bottom:10px;}
+#navigation li a:hover, #thisSide .thisSide {background-color: #C2C2C2;}
+
+/* Content */
+article {width:456px; padding-bottom: 20px; margin:0 auto;}
 article header {width:400px; margin:0 auto;}
 article header footer {margin-bottom: 10px; padding-top:10px; border-top:solid 1px;}
 
 h3 {font-size:1.5em; text-align:center; padding-bottom:5px;}
 
-/* Link */
-#navigation li a {display: block; padding: 10px; background-color:#F7F7F7; text-decoration:none; margin-bottom:10px;}
-#navigation li a:hover {background-color: #C2C2C2;}
-#thisSide a.thisSide  {background-color: #C2C2C2;}
+/* Aside */
+#aside img {width: 100%;}
+
+/* Footer */
 
 /* Typografi */
-#navigation, #content {padding:10px;}
