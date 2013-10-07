@@ -34,7 +34,7 @@ h1 {font-size:2em; margin:10px 10px 10px 30px; float:left; }
 h2 {font-size:2em; margin-bottom:10px; padding-bottom:5px; text-align:center; border-bottom:solid 1px;}
 h3 {font-size:1.5em; margin:10px 0; padding: 5px; clear:both; text-align:center; font-weight:bold; background-color: #E0E0E0;}
 
-a {text-decoration:none; color: black; background-color: #F7F7F7;}
+a {text-decoration:none; color: black; background-color: #E8E8E8;}
 #navigation li a:hover, a:hover, #thisSide .thisSide {background-color: #C2C2C2;}
 article footer {font-style: italic;}
 
@@ -48,7 +48,8 @@ figure {margin-bottom:10px;}
 /* Color 
 #FFF        White
 #F7F7F7     Gray (light)
-#E0E0E0     Gray
+#E0E0E0     Gray (mainlink)
+#E8E8E8     Gray (link)
 #C2C2C2     Gray (dark)
 #000        Black
 */ 
