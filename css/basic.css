@@ -13,8 +13,8 @@ body {background-color: #FFF;}
 #footer     {max-width: 958px; clear: both; padding:10px;   background-color: #C2C2C2;}
 
 /* Headcontent */
-#logotype {width: 70px; float:left; margin-left:30px;}
-#headcontent p {float: right; margin: 30px 30px 0 0;}
+.logo {width: 70px; height: 70px; display: block; float:left; margin-left:30px; background-image: url(pics/logo.jpg);}
+#headcontent p {float: right; margin: 30px 30px 0 0; }
 
 /* Navigation */
 #navigation li a {display: block; padding: 10px 20px; background-color:#F7F7F7; margin-bottom:10px;}
