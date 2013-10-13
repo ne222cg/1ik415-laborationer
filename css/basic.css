@@ -18,17 +18,24 @@ body {background-color: #FFF;}
 
 /* Navigation */
 #navigation li a {display: block; margin-bottom:10px; padding: 10px 20px; background-color:#F7F7F7; }
+#navigation li a:hover, a:hover, #thisSide .thisSide {background-color: #C2C2C2;}
 
 /* Content */
-.post {width: 20px; height: 20px; display: block; float:left; margin: 0 20px; background-image: url(pics/post.jpg);}
-article {width:100%; padding-bottom: 20px; margin:0 auto;}
-article footer {float:right;}
+.post {width:20px; height:20px; display:block; float:left; margin: 0 20px; background-image: url(pics/post.jpg);}
+article {width:100%; padding-bottom: 20px; margin:0 auto; clear:both;}
+article header {display:block; width:100%; overflow:auto; background-color: #E0E0E0; margin-bottom:10px; padding:5px 0;}
+article footer {float:right; font-style: italic;}
 #content p {margin:10px 0; text-align:justify;}
 #content a {display:inline; padding:5px;}
 
-#content li, dt, dd {list-style-position:inside; margin:10px;}
+#content li, dt {list-style-position:outside; margin: 15px 0 0 30px;}
+dd {margin-left: 30px; font-style: italic;}
 #content ol li {list-style-type:upper-roman;}
 #content ol li ul li {list-style-type:lower-roman;}
+
+th, td {border: 1px solid black; padding:5px 10px; text-align:center; vertical-align:middle;}
+caption {font-size:1.25em;  padding-bottom:5px; text-align:center; font-weight:bold;}
+tfoot td {text-align:left;}
 
 /* Aside */
 
@@ -36,23 +43,17 @@ article footer {float:right;}
 
 /* Typography */
 
+a {text-decoration:none; color: black; background-color: #E8E8E8;}
 
 h1 {font-size:2.00em; margin:19px 10px 19px 30px; float:left; }
 h2 {font-size:1.50em; margin-bottom:10px; padding-bottom:5px; text-align:center; font-weight:bold; border-bottom:solid 1px;}
-h3 {font-size:1.25em; margin:10px 0 10px 0; padding: 5px; clear:both; font-weight:bold; background-color: #E0E0E0;}
-
-
-
-a {text-decoration:none; color: black; background-color: #E8E8E8;}
-#navigation li a:hover, a:hover, #thisSide .thisSide {background-color: #C2C2C2;}
-article footer {font-style: italic;}
+h3 {font-size:1.25em; float:left; font-weight:bold; }
 
 /* Media */
 figcaption {text-align:justify;}
 img, video, svg { width: 100%; overflow:auto;}
 .left  {width: 60%; margin-right: 10px; float:left;}
 .right {width: 60%; margin-left: 10px; float:right;}
-
 
 /* Color 
 #FFF        White
