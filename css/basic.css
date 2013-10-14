@@ -21,12 +21,10 @@ body {background-color: #FFF;}
 #navigation li a:hover, a:hover, #thisSide .thisSide {background-color: #C2C2C2;}
 
 /* Content */
-.post {width:20px; height:20px; display:block; float:left; margin: 0 20px; background-image: url(pics/post.jpg);}
+.post {width:20px; height:20px; display:block; float:left; margin-right: 20px; background-image: url(pics/post.jpg);}
 article {width:100%; padding-bottom: 20px; margin:0 auto; clear:both;}
-article header {display:block; width:100%; overflow:auto; background-color: #E0E0E0; margin-bottom:10px; padding:5px 0;}
 article footer {float:right; font-style: italic;}
-#content p {margin:10px 0; text-align:justify;}
-#content a {display:inline; padding:5px;}
+#content a {display:inline; padding: 0 5px;}
 
 #content li, dt {list-style-position:outside; margin: 15px 0 0 30px;}
 dd {margin-left: 30px; font-style: italic;}
@@ -37,6 +35,8 @@ th, td {border: 1px solid black; padding:5px 10px; text-align:center; vertical-a
 caption {font-size:1.25em;  padding-bottom:5px; text-align:center; font-weight:bold;}
 tfoot td {text-align:left;}
 
+table {margin-top: 10px;}
+
 /* Aside */
 
 /* Footer */
@@ -44,14 +44,18 @@ tfoot td {text-align:left;}
 /* Typography */
 
 a {text-decoration:none; color: black; background-color: #E8E8E8;}
+p {margin-top:10px; text-align:justify;}
 
+header {display:block; width:100%; overflow:auto; background-color: #E0E0E0; margin-top:10px; padding:5px 0;}
+#aside header {display:block; width:100%; overflow:auto; background-color: #E0E0E0;}
 h1 {font-size:2.00em; margin:19px 10px 19px 30px; float:left; }
-h2 {font-size:1.50em; margin-bottom:10px; padding-bottom:5px; text-align:center; font-weight:bold; border-bottom:solid 1px;}
-h3 {font-size:1.25em; float:left; font-weight:bold; }
+h2 {font-size:1.50em; padding-bottom:5px; text-align:center; font-weight:bold; border-bottom:solid 1px;}
+h3 {font-size:1.25em; float:left; font-weight:bold; padding-left:20px;}
+h4 {font-size:1.25em; font-weight:bold; text-align:center;}
 
 /* Media */
-figcaption {text-align:justify;}
-img, video, svg { width: 100%; overflow:auto;}
+figcaption {font-size:0.9em; text-align:justify; font-style: italic; padding:0 5px;}
+img, video, svg { width: 100%; overflow:auto; margin-top:10px;}
 .left  {width: 60%; margin-right: 10px; float:left;}
 .right {width: 60%; margin-left: 10px; float:right;}
 
