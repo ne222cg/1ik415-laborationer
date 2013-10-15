@@ -40,6 +40,7 @@ table {margin-top: 10px;}
 /* Aside */
 
 /* Footer */
+#footer p {margin:0;}
 
 /* Typography */
 
@@ -58,6 +59,11 @@ figcaption {font-size:0.9em; text-align:justify; font-style: italic; padding:0 5
 img, video, svg { width: 100%; overflow:auto; margin-top:10px;}
 .left  {width: 60%; margin-right: 10px; float:left;}
 .right {width: 60%; margin-left: 10px; float:right;}
+
+/* Field */
+fieldset {margin-top:20px; padding:10px 10px; border: dotted 1px;}
+select {margin-top:10px;}
+button {margin-top:10px;}
 
 /* Color 
 #FFF        White
