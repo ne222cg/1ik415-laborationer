@@ -1,0 +1,46 @@
+#container, #content {overflow:auto;}
+#headcontent, #header, #navigation, #aside, #footer, span {display:none;}
+
+body {margin:1cm 0.7cm 0.7cm 1cm; background-color:#FFF; font-family: Georgia, Times, serif; font-size: 10pt;}
+
+article {width:100%; padding-bottom:20px; margin:0 auto; clear:both;}
+article footer {float:right; font-style:italic; margin-top:10px;}
+
+#content li, dt {list-style-position:outside; margin:15px 0 0 30px;}
+dd {margin-left:30px; font-style:italic;}
+#content ol li {list-style-type:upper-roman;}
+#content ol li ul li {list-style-type:lower-roman;}
+
+th, td {border:1px solid black; padding:5px 10px; text-align:center; vertical-align:middle;}
+caption {font-size:1.25em;  padding-bottom:5px; text-align:center; font-weight:bold;}
+tfoot td {text-align:left;}
+
+table {margin-top:10px;}
+
+header {display:block; width:100%; overflow:auto; background-color:#E0E0E0; margin-top:10px; padding:5px 0;}
+
+h2 {font-size:1.50em; padding-bottom:5px; text-align:center; font-weight:bold; border-bottom:solid 1px;}
+h3 {font-size:1.25em; padding:5px; float:left; font-weight:bold; text-align:center; border: dotted 1px;}
+
+
+/* Typography */
+
+a:link {text-decoration:underline; color:#06c;}
+a:link:after {content: " ("attr(href)")";}
+p {margin-top:10px; text-align:justify;}
+
+
+/* Media */
+figcaption {font-size:0.9em; font-style:italic; padding:0 5px;}
+img, video {width:60%; overflow:auto; margin-top:10px;}
+svg {width:100%; overflow:auto; margin-top:10px;}
+.left img, .left video, .right img, .right video {width:100%;}
+.left  {width:50%; margin-right:10px; float:left;}
+.right {width:50%; margin-left:10px; float:right;}
+
+/* Field */
+fieldset {margin-top:20px; padding:10px 10px; border:dotted 1px;}
+select {margin-top:10px;}
+button {margin-top:10px;}
+
+
