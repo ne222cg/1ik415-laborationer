@@ -17,8 +17,19 @@ body {background-color: #FFF;}
 #headcontent p {display:block; width:219px; float: right; margin: 50px 10px 0 10px; text-align:center;}
 
 /* Navigation */
-#navigation li a {display: block; margin-bottom:10px; padding: 10px 20px; background-color:#F7F7F7; }
+#navigation li a {display: block; width:120px; float:left; margin-bottom:10px; padding: 10px 0 10px 25px; background-color:#F7F7F7;}
 #navigation li a:hover, a:hover, #thisSide .thisSide {background-color: #C2C2C2;}
+.start { display:block; background-image: url(sprites/sprite.png); background-size:16px; background-position:5px -22px; background-repeat:no-repeat;} 
+.start:hover {background-position:5px 10px;}
+
+.laborationer { display:block; background-image: url(sprites/sprite.png); background-size:16px; background-position:5px -86px; background-repeat:no-repeat;} 
+.laborationer:hover {background-position:5px -54px;}
+
+.presentation { display:block; background-image: url(sprites/sprite.png); background-size:16px; background-position:5px -150px; background-repeat:no-repeat;} 
+.presentation:hover {background-position:5px -118px;}
+
+.kontakt { display:block; background-image: url(sprites/sprite.png); background-size:16px; background-position:5px -214px; background-repeat:no-repeat;} 
+.kontakt:hover {background-position:5px -182px;}
 
 /* Content */
 .post {width:20px; height:20px; display:block; float:left; margin-right: 20px; background-image: url(pics/post.jpg);}
