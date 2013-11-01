@@ -8,15 +8,15 @@
         <link rel="stylesheet" href="../css/print.css" media="print" />
     </head>
     <body>
-        <div id="header">
-            <div id="headcontent">
+        <div id="headerbackground"></div>
+    
+        <div id="container">
+        
+            <div id="header">
                 <div class="logo"></div>
                 <h1>Min laborationsportal</h1>
                 <p>Här hittar du mina laborationer.</p>
             </div>
-        </div>    
-    
-        <div id="container">
             
             <div id="navigation">
                 <ul>
@@ -25,7 +25,7 @@
                     </li>
                     <li>
                         <div id="thisSide">
-                            <a class="laborationer thisSide" href="laborationer.html">Laborationer</a>
+                            <a class="laborationer thisSideLaborationer" href="laborationer.html">Laborationer</a>
                         </div>
                     </li>
                     <li>
@@ -37,290 +37,292 @@
                 </ul>
             </div>
             
-            <div id="content">
-                <h2>Webbteknisk introduktion</h2>
-                
-                <header><h3>Laborationer</h3></header>
-                <ul>
-                    <li>
-                        <p><a href="#lab1">Laboration 1</a></p>
-                    </li>
-                    <li>
-                        <p><a href="#lab2">Laboration 2</a></p>
-                    </li>
-                </ul>
-                
-                <header><h3>Resultattabell för kursens laborationer</h3></header>
-                <table id="tabell">
-                    <thead>
-                        <tr>
-                            <th>Laboration</th>
-                            <th>Uppgift</th>
-                            <th>Status</th>
-                            <th>Redovisad</th>
-                        </tr>
-                    </thead>
+            <div id="wrapper">
+                <div id="content">
+                    <h2>Webbteknisk introduktion</h2>
                     
-                    <tfoot>
-                        <tr>
-                            <td colspan="4">Laborationsresultat gällande Niclas Evén</td>
-                        </tr>
-                    </tfoot>
+                    <header><h3>Laborationer</h3></header>
+                    <ul>
+                        <li>
+                            <p><a href="#lab1">Laboration 1</a></p>
+                        </li>
+                        <li>
+                            <p><a href="#lab2">Laboration 2</a></p>
+                        </li>
+                    </ul>
                     
-                    <!--Tabellkropp för laboration 1 -->    
-                    <tbody>
-                        <tr>
-                            <td rowspan="9">1 - Struktur och innehåll</td>
-                            <td>1</td>
-                            <td>Godkänd</td>
-                            <td>2013-09-19</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Godkänd</td>
-                            <td>2013-09-19</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Godkänd</td>
-                            <td>2013-09-19</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Godkänd</td>
-                            <td>2013-09-19</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Godkänd</td>
-                            <td>2013-09-19</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Godkänd</td>
-                            <td>2013-09-19</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>Godkänd</td>
-                            <td>2013-09-19</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>Godkänd</td>
-                            <td>2013-09-19</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>Godkänd</td>
-                            <td>2013-09-19</td>
-                        </tr>
-                     </tbody>
-        
-                    <!--Tabellkropp för laboration 2 -->  
-                    <tbody>   
-                        <tr>
-                            <td rowspan="8">2 - En stiligare portal</td>
-                            <td>1</td>
-                            <td>Godkänd</td>
-                            <td>2013-10-15</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Godkänd</td>
-                            <td>2013-10-15</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Godkänd</td>
-                            <td>2013-10-15</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Godkänd</td>
-                            <td>2013-10-15</td>
-                        </tr>                
-                        <tr>
-                            <td>5</td>
-                            <td>Godkänd</td>
-                            <td>2013-10-15</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Godkänd</td>
-                            <td>2013-10-15</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>Godkänd</td>
-                            <td>2013-10-15</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>Godkänd</td>
-                            <td>2013-10-15</td>
-                        </tr>                
-                    </tbody>
-                    
-                    <!--Tabellkropp för laboration 3 -->  
-                    <tbody>   
-                        <tr>
-                            <td rowspan="5">3 - Copycat</td>
-                            <td>1</td>
-                            <td>Godkänd</td>
-                            <td>2013-10-17</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Godkänd</td>
-                            <td>2013-10-17</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Godkänd</td>
-                            <td>2013-10-17</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Godkänd</td>
-                            <td>2013-10-17</td>
-                        </tr>                
-                        <tr>
-                            <td>5</td>
-                            <td>Godkänd</td>
-                            <td>2013-10-17</td>
-                        </tr>
-                    </tbody>
-                    
-                    <!--Tabellkropp för laboration 4 -->  
-                    <tbody>   
-                        <tr>
-                            <td rowspan="1">4 - Mobila enheter</td>
-                            <td>1</td>
-                            <td>Ej påbörjad</td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-
-                    <!--Tabellkropp för laboration 5 -->  
-                    <tbody>   
-                        <tr>
-                            <td rowspan="3">3 - HTML5/CSS3</td>
-                            <td>1</td>
-                            <td>Ej påbörjad</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Ej påbörjad</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Ej påbörjad</td>
-                            <td></td>
-                        </tr>
-                    </tbody>                    
-                </table>
-                
-                <header><h3 id="lab1">Laboration 1 - Struktur och innehåll</h3></header>
-                <p><a href="https://coursepress.lnu.se/kurs/webbteknisk-introduktion/laborationer/l01-struktur-och-innehall/">Uppgifter:</a></p>
-                <ol>
-                    <li>Utvecklingsmiljön</li>
-                    <li>Ett första dokument</li>
-                    <li>Startsidan</li>
-                    <li>
-                        Absoluta/Relativa sökvägar
-                        <dl>
-                            <dt>Skriv den absoluta sökvägen till filen bottom.html?</dt>
-                            <dd>Svar: www.server.se/www/html/pages/bottom.html</dd>
-                            <dt>Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
-                            <dd>Svar: pages/top.html</dd>
-                            <dt>Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
-                            <dd>Svar: ../../index.html</dd>
-                            <dt>Vilken är den absoluta sökvägen till filen index.html?</dt>
-                            <dd>Svar: www.server.se/www/index.html</dd>
-                            <dt>Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
-                            <dd>Svar: bottom.html</dd>
-                            <dt>Vilken är den relativa sökvägen från filen index.html till top.html?</dt>
-                            <dd>Svar: html/pages/top.html</dd>
-                        </dl>    
-                    </li>
-                    <li>Länkar och mer listor</li>
-                    <li>Bilder
-                        <ul>
-                            <li><p><a href="presentation.html#niclas">Bild på Niclas</a></p></li>
-                            <li><p><a href="../index.html#logotyp">Logotyp</a></p></li>
-                            <li><p><a href="../index.html#blogg-vektor">Bloggbild</a></p></li>
-                        </ul>
-                    </li>
-                    <li>Video
-                        <ul>
-                            <li><p><a href="../index.html#blogg-video">Blogginlägg om video</a></p></li>
-                        </ul>
-                    </li>
-                    <li>Tabeller
-                        <ul>
-                            <li><p><a href="#tabell">Tabellen</a></p></li>
-                        </ul>
-                    </li>
-                    <li>Formulär
-                        <ul>
-                            <li><p><a href="kontakt.html#formulär">Formulär</a></p></li>
-                        </ul>
-                    </li>
-                </ol>
-                
-                <header><h3 id="lab2">Laboration 2 - En stiligare portal</h3></header>
-                <p><a href="https://coursepress.lnu.se/kurs/webbteknisk-introduktion/laborationer/l02-en-stiligare-portal/">Uppgifter:</a></p>
-                <ol>
-                    <li>Använda stilmallar</li>
-                    <li>Layout</li>
-                    <li>Färgsättning</li>
-                    <li>Menyn</li>
-                    <li>Typografi</li>
-                    <li>Övrigt</li>
-                    <li>Ny bloggpost
-                        <ul>
-                            <li><p><a href="../index.html#lorem_ipsum">Blogginlägg med test av infällda bilder och video</a></p></li>
-                        </ul>
-                    </li>
-                    <li>Laborationssidan</li>
-                </ol>
-                
-                <header><h3 id="lab3">Laboration 3 - Copycat</h3></header>
-                <p><a href="https://coursepress.lnu.se/kurs/webbteknisk-introduktion/l03-copycat/">Uppgifter:</a></p>
-                <ol>
-                    <li>Stila formuläret</li>
-                    <li>Utskriftsvänlig version</li>
-                    <li>Copycat
-                        <ul>
-                            <li><p><a href="../index.html#copycat">Blogginlägg: Att kopiera en sida</a></p></li>
-                            <li><p><a href="https://c9.io/ne222cg/uppgift-3-3/workspace/index.html#">Copycat-sidan</a></p></li>
-                        </ul>
-                    </li>
-                    <li>CSS Sprites</li>
-                    <li>CSS3</li>
-                </ol>
-                
-                <header><h3 id="lab4">Laboration 4 - Mobila enheter</h3></header>
-                <p><a href="https://coursepress.lnu.se/kurs/webbteknisk-introduktion/laborationer/l04-mobila-enheter/">Uppgifter:</a></p>
-                <ol>
-                    <li>En mobilare portal</li>
-                </ol>        
-                
-                <header><h3 id="lab5">Laboration 3 - HTML/CSS3</h3></header>
-                <p><a href="https://coursepress.lnu.se/kurs/webbteknisk-introduktion/laborationer/lo05-html5-css/">Uppgifter:</a></p>
-                <ol>
-                    <li>Sidstruktur</li>
-                    <li>Mikroformat</li>
-                    <li>Fotogalleri</li>
-                </ol>                
-            </div>
+                    <header><h3>Resultattabell för kursens laborationer</h3></header>
+                    <table id="tabell">
+                        <thead>
+                            <tr>
+                                <th>Laboration</th>
+                                <th>Uppgift</th>
+                                <th>Status</th>
+                                <th>Redovisad</th>
+                            </tr>
+                        </thead>
+                        
+                        <tfoot>
+                            <tr>
+                                <td colspan="4">Laborationsresultat gällande Niclas Evén</td>
+                            </tr>
+                        </tfoot>
+                        
+                        <!--Tabellkropp för laboration 1 -->    
+                        <tbody>
+                            <tr>
+                                <td rowspan="9">1 - Struktur och innehåll</td>
+                                <td>1</td>
+                                <td>Godkänd</td>
+                                <td>2013-09-19</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Godkänd</td>
+                                <td>2013-09-19</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Godkänd</td>
+                                <td>2013-09-19</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Godkänd</td>
+                                <td>2013-09-19</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Godkänd</td>
+                                <td>2013-09-19</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Godkänd</td>
+                                <td>2013-09-19</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Godkänd</td>
+                                <td>2013-09-19</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Godkänd</td>
+                                <td>2013-09-19</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Godkänd</td>
+                                <td>2013-09-19</td>
+                            </tr>
+                         </tbody>
             
-            <div id="footer">
-                <p>&copy; Niclas Evén</p>
+                        <!--Tabellkropp för laboration 2 -->  
+                        <tbody>   
+                            <tr>
+                                <td rowspan="8">2 - En stiligare portal</td>
+                                <td>1</td>
+                                <td>Godkänd</td>
+                                <td>2013-10-15</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Godkänd</td>
+                                <td>2013-10-15</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Godkänd</td>
+                                <td>2013-10-15</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Godkänd</td>
+                                <td>2013-10-15</td>
+                            </tr>                
+                            <tr>
+                                <td>5</td>
+                                <td>Godkänd</td>
+                                <td>2013-10-15</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Godkänd</td>
+                                <td>2013-10-15</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Godkänd</td>
+                                <td>2013-10-15</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Godkänd</td>
+                                <td>2013-10-15</td>
+                            </tr>                
+                        </tbody>
+                        
+                        <!--Tabellkropp för laboration 3 -->  
+                        <tbody>   
+                            <tr>
+                                <td rowspan="5">3 - Copycat</td>
+                                <td>1</td>
+                                <td>Godkänd</td>
+                                <td>2013-10-17</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Godkänd</td>
+                                <td>2013-10-17</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Godkänd</td>
+                                <td>2013-10-17</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Godkänd</td>
+                                <td>2013-10-17</td>
+                            </tr>                
+                            <tr>
+                                <td>5</td>
+                                <td>Godkänd</td>
+                                <td>2013-10-17</td>
+                            </tr>
+                        </tbody>
+                        
+                        <!--Tabellkropp för laboration 4 -->  
+                        <tbody>   
+                            <tr>
+                                <td rowspan="1">4 - Mobila enheter</td>
+                                <td>1</td>
+                                <td>Ej påbörjad</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+    
+                        <!--Tabellkropp för laboration 5 -->  
+                        <tbody>   
+                            <tr>
+                                <td rowspan="3">3 - HTML5/CSS3</td>
+                                <td>1</td>
+                                <td>Ej påbörjad</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Ej påbörjad</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Ej påbörjad</td>
+                                <td></td>
+                            </tr>
+                        </tbody>                    
+                    </table>
+                    
+                    <header><h3 id="lab1">Laboration 1 - Struktur och innehåll</h3></header>
+                    <p><a href="https://coursepress.lnu.se/kurs/webbteknisk-introduktion/laborationer/l01-struktur-och-innehall/">Uppgifter:</a></p>
+                    <ol>
+                        <li>Utvecklingsmiljön</li>
+                        <li>Ett första dokument</li>
+                        <li>Startsidan</li>
+                        <li>
+                            Absoluta/Relativa sökvägar
+                            <dl>
+                                <dt>Skriv den absoluta sökvägen till filen bottom.html?</dt>
+                                <dd>Svar: www.server.se/www/html/pages/bottom.html</dd>
+                                <dt>Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
+                                <dd>Svar: pages/top.html</dd>
+                                <dt>Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
+                                <dd>Svar: ../../index.html</dd>
+                                <dt>Vilken är den absoluta sökvägen till filen index.html?</dt>
+                                <dd>Svar: www.server.se/www/index.html</dd>
+                                <dt>Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
+                                <dd>Svar: bottom.html</dd>
+                                <dt>Vilken är den relativa sökvägen från filen index.html till top.html?</dt>
+                                <dd>Svar: html/pages/top.html</dd>
+                            </dl>    
+                        </li>
+                        <li>Länkar och mer listor</li>
+                        <li>Bilder
+                            <ul>
+                                <li><p><a href="presentation.html#niclas">Bild på Niclas</a></p></li>
+                                <li><p><a href="../index.html#logotyp">Logotyp</a></p></li>
+                                <li><p><a href="../index.html#blogg-vektor">Bloggbild</a></p></li>
+                            </ul>
+                        </li>
+                        <li>Video
+                            <ul>
+                                <li><p><a href="../index.html#blogg-video">Blogginlägg om video</a></p></li>
+                            </ul>
+                        </li>
+                        <li>Tabeller
+                            <ul>
+                                <li><p><a href="#tabell">Tabellen</a></p></li>
+                            </ul>
+                        </li>
+                        <li>Formulär
+                            <ul>
+                                <li><p><a href="kontakt.html#formulär">Formulär</a></p></li>
+                            </ul>
+                        </li>
+                    </ol>
+                    
+                    <header><h3 id="lab2">Laboration 2 - En stiligare portal</h3></header>
+                    <p><a href="https://coursepress.lnu.se/kurs/webbteknisk-introduktion/laborationer/l02-en-stiligare-portal/">Uppgifter:</a></p>
+                    <ol>
+                        <li>Använda stilmallar</li>
+                        <li>Layout</li>
+                        <li>Färgsättning</li>
+                        <li>Menyn</li>
+                        <li>Typografi</li>
+                        <li>Övrigt</li>
+                        <li>Ny bloggpost
+                            <ul>
+                                <li><p><a href="../index.html#lorem_ipsum">Blogginlägg med test av infällda bilder och video</a></p></li>
+                            </ul>
+                        </li>
+                        <li>Laborationssidan</li>
+                    </ol>
+                    
+                    <header><h3 id="lab3">Laboration 3 - Copycat</h3></header>
+                    <p><a href="https://coursepress.lnu.se/kurs/webbteknisk-introduktion/l03-copycat/">Uppgifter:</a></p>
+                    <ol>
+                        <li>Stila formuläret</li>
+                        <li>Utskriftsvänlig version</li>
+                        <li>Copycat
+                            <ul>
+                                <li><p><a href="../index.html#copycat">Blogginlägg: Att kopiera en sida</a></p></li>
+                                <li><p><a href="https://c9.io/ne222cg/uppgift-3-3/workspace/index.html#">Copycat-sidan</a></p></li>
+                            </ul>
+                        </li>
+                        <li>CSS Sprites</li>
+                        <li>CSS3</li>
+                    </ol>
+                    
+                    <header><h3 id="lab4">Laboration 4 - Mobila enheter</h3></header>
+                    <p><a href="https://coursepress.lnu.se/kurs/webbteknisk-introduktion/laborationer/l04-mobila-enheter/">Uppgifter:</a></p>
+                    <ol>
+                        <li>En mobilare portal</li>
+                    </ol>        
+                    
+                    <header><h3 id="lab5">Laboration 3 - HTML/CSS3</h3></header>
+                    <p><a href="https://coursepress.lnu.se/kurs/webbteknisk-introduktion/laborationer/lo05-html5-css/">Uppgifter:</a></p>
+                    <ol>
+                        <li>Sidstruktur</li>
+                        <li>Mikroformat</li>
+                        <li>Fotogalleri</li>
+                    </ol>                
+                </div>
             </div>
+        
+        <div id="footer">
+            <p>&copy; Niclas Evén</p>
         </div>
+        
     </body>
 </html>
