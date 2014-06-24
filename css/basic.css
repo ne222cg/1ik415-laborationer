@@ -1,15 +1,14 @@
 body {background-color: #FFF;}
 
 /* Layout all box */
-#headcontent, #container, #header, #navigation, #wrapper, #content, #aside #footer {z-index:100; overflow:auto;}
+#headcontent, #container, #header, #navigation, #wrapper, #content, #aside #footer {overflow:auto;}
 
-/* Layout single box */
+/* Layout  */
 
 #headerbackground{
     width:  100%;
     height: 70px;
     background-color: #F7F7F7;
-    z-index:0;
     }
 
 #container{
@@ -20,39 +19,19 @@ body {background-color: #FFF;}
     border-right: solid 1px; 
     border-color: #C2C2C2;
     }
-    
-#a{
-    width: 160px;
-    height: 100px;
-    float: left;
-    background-color: red;
-    display:block;
-    overflow:auto;
-    }
-
-#b{
-    width: 560px;
-    height: 100px;
-    float: left;
-    background-color: green;
-    display:block;
-    overflow:auto;
-    }
-
-#c{
-    width: 240px;
-    height: 100px;
-    float: left;
-    background-color: purple;
-    display:block;
-    overflow:auto;
-    }
-    
 
 #header{
     max-width: 962px; 
     margin: 0 auto;
     background-color: #C2C2C2;
+    }
+    
+.logo{
+    width: 70px; 
+    height: 70px;  
+    float:left; 
+    margin-left:30px; 
+    background-image: url(pics/logo.jpg);
     }
     
 #navigation{
@@ -66,7 +45,6 @@ body {background-color: #FFF;}
 #wrapper{
     width: 100%;
     float: left;
-    z-index:-1000;
     }
 
 #content{
@@ -93,13 +71,35 @@ body {background-color: #FFF;}
 
 
 
+/* Typography */
+
+p{
+    margin-top:10px; 
+    text-align:justify;
+    }
+
+#header p{
+    display:block; 
+    width:219px; 
+    float: right; 
+    margin: 50px 10px 0 10px; 
+    text-align:center;
+    }
+
+#footer p{
+    margin:0;
+    }
 
 
 
 
-/* Headcontent */
-.logo {width: 70px; height: 70px;  float:left; margin-left:30px; background-image: url(pics/logo.jpg);}
-#header p {display:block; width:219px; float: right; margin: 50px 10px 0 10px; text-align:center;}
+
+
+
+
+
+
+
 
 /* Navigation */
 #navigation li a {display: block; width:115px; float:left; margin-bottom:10px; padding: 10px 0 10px 25px; background-color:#F7F7F7;}
@@ -136,12 +136,12 @@ table {margin-top: 10px;}
 /* Aside */
 
 /* Footer */
-#footer p {margin:0;}
+
 
 /* Typography */
 
 a {text-decoration:none; color: black; background-color: #E8E8E8;}
-p {margin-top:10px; text-align:justify;}
+
 
 header {display:block; width:100%; overflow:auto; background-color: #E0E0E0; margin-top:10px; padding:5px 0;}
 #aside header {display:block; width:100%; overflow:auto; background-color: #E0E0E0;}
